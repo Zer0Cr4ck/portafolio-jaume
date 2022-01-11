@@ -1,0 +1,19 @@
+.personal{
+    text-align: center;
+    font:var(--headline6);
+    margin-block-start: 4rem;
+}
+
+.personal p:nth-of-type(2){
+    font: var(--headline5);
+}
+
+@media screen and (min-width: 1024px){
+
+    .personal{
+        padding-block-start:150px;
+padding-block-end: 150px;
+    }
+
+}
+
